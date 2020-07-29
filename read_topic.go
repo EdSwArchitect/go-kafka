@@ -65,6 +65,7 @@ func main() {
 				continue
 			}
 
+			//
 			switch e := ev.(type) {
 			case *kafka.Message:
 				log.Printf("%% Message on %s:\n%s\n",
